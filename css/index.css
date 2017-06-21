@@ -1,0 +1,504 @@
+.w {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.head-wrapp {
+    height: 50px;
+    background-color: #F65A5B;
+    line-height: 50px;
+    color: white;
+    font-size: 14px;
+}
+
+.head-wrapp .head {
+    display: flex;
+}
+
+.head .head-left {
+    padding: 0 15px;
+    height: 50px;
+    flex: 2;
+}
+
+.head .head-left a {
+    text-decoration: none;
+    color: white;
+}
+
+.head .head-right {
+    height: 50px;
+    padding: 0 15px;
+    text-align: right;
+    flex: 2;
+}
+
+.head .head-right .search {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: white url(../images/xuebitu1.png) -137px -309px;
+    position: relative;
+}
+
+.head .head-right .search .search_contain {
+    width: 845px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: -780px;
+    background: rgba(232, 201, 201, 0.2);
+    font-size: 0;
+    display: none;
+}
+
+.head .head-right .search .search_contain li a {
+    color: #1B1C1D;
+    text-decoration: none;
+}
+
+.head .head-right .search:hover .search_contain {
+    display: block;
+}
+
+.head .head-right .search .search_contain li {
+    display: inline-block;
+    padding: 0 30px;
+    border-right: 1px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.head .head-right .search .search_contain li:hover {
+    background: #204056;
+    font-size: 20px;
+}
+
+.head .head-right .search .search_contain li:hover a {
+    color: white;
+}
+
+.head .head-right .search .search_contain .last_li {
+    border-right: none;
+    padding-right: -10px;
+}
+
+.head .head-right .gouwuche {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background: url(../images/xuebitu1.png) -137px -371px;
+}
+
+.head .head-right .jrgwc a {
+    vertical-align: top;
+    text-decoration: none;
+    color: white;
+}
+
+.head .head-main {
+    /*margin: 0 130px;*/
+    height: 50px;
+    text-align: center;
+    width: 460px;
+}
+
+.head .head-main .logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("../images/xuebitu1.png") -135px -247px;
+    vertical-align: top;
+}
+
+.head_bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.head_bg .bg1 {
+    background: url("../images/head-bg_01.jpg") no-repeat top center;
+    height: 200px;
+}
+
+.head_bg .bg2 {
+    background: url("../images/head-bg_02.jpg") no-repeat top center;
+    height: 200px;
+}
+
+.head_bg .bg3 {
+    background: url("../images/head-bg_03.jpg") no-repeat top center;
+    height: 200px;
+}
+
+.head_bg .bg4 {
+    background: url("../images/head-bg_04.jpg") no-repeat top center;
+    height: 200px;
+}
+
+.head_bg .bg5 {
+    background: url("../images/head-bg_05.jpg") no-repeat top center;
+    height: 200px;
+}
+
+.ad {
+    text-align: center;
+}
+
+.ad .big_logo {
+    display: inline-block;
+    width: 160px;
+    height: 130px;
+    background: url("../images/xuebitu1.png") -282px -435px;
+    margin-top: 68px;
+}
+
+.ad .p1 {
+    font-size: 48px;
+    color: #F65A5B;
+    margin-top: 20px;
+}
+
+.ad .p2 {
+    font-size: 48px;
+    color: white;
+    margin-top: 53px;
+}
+
+.ad .tip {
+    display: inline-block;
+    font-size: 20px;
+    padding: 14px 46px;
+    color: white;
+    text-decoration: none;
+    background: #F65A5B;
+    margin-top: 52px;
+}
+
+.ad ul li {
+    display: inline-block;
+    margin-top: 117px;
+}
+
+.ad .ad_bottom {
+    width: 310px;
+    height: 290px;
+}
+
+.ad .ad_bottom .image {
+    width: 100%;
+    height: 178px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ad .ad_bottom .image img {
+    width: 109px;
+    height: 106px;
+    margin-top: 30px;
+}
+
+.ad .ad_bottom .image p {
+    font-size: 20px;
+    color: #2B211A;
+}
+
+.ad .ad_bottom .bot {
+    font-size: 16px;
+    color: white;
+    padding: 0 35px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 27px;
+    margin-top: 16px;
+}
+
+.ad .middle {
+    margin: 0 30px;
+}
+
+/*float1*/
+.float1 {
+    text-align: center;
+}
+
+.float1 .f1-title {
+    margin-top: 150px;
+    font-size: 24px;
+    color: #F65A5B;
+}
+
+.float1 hr {
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 23px;
+}
+
+.float1 .introduce {
+    display: inline-block;
+    width: 822px;
+    text-indent: 32px;
+    margin-top: 22px;
+    text-align: justify;
+}
+
+.float1 .f1-pic-text li {
+    width: 300px;
+    height: 267px;
+    display: inline-block;
+    margin: 20px 30px 10px 0;
+}
+
+.float1 .f1-pic-text .youtu img {
+    width: 100%;
+    height: 100%;
+}
+
+.float1 .f1-pic-text .youtu {
+    position: relative;
+    overflow: hidden;
+}
+
+.float1 .f1-pic-text .duobian img {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.float1 .f1-pic-text .duobian .wenzi {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    top: 210px;
+    left: 50px;
+}
+
+.float1 .f1-pic-text .wutu {
+    background: #204056;
+    color: white;
+    vertical-align: top;
+}
+
+.float1 .f1-pic-text .wutu h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.float1 .f1-pic-text .wutu .wutu-con {
+    font-size: 16px;
+    padding: 15px;
+    text-indent: 32px;
+    text-align: left;
+}
+
+.float1 .f1-pic-text .wutu .wutu-pric {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.float1 .f1-pic-text .wutu .span1 {
+    font-size: 30px;
+}
+
+.float1 .f1-pic-text .wutu .span2 {
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.f2-container {
+    background: #6A737B;
+    padding: 106px 0;
+}
+
+.float2 .f2-left {
+    width: 350px;
+    height: 250px;
+    float: left;
+}
+
+.float2 .f2-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.float2 .f2-right {
+    width: 622px;
+    float: right;
+}
+
+.float2 .f2-right .f2-line {
+    width: 195px;
+    height: 1px;
+    background: black;
+    margin: 10px 0;
+}
+
+.float2 .f2-right .f2-ri-hea {
+    padding-left: 30px;
+    font-size: 24px;
+    color: #F65A5B;
+    line-height: 40px;
+}
+
+.float2 .f2-right .f2-ri-t1 {
+    font-size: 16px;
+    color: white;
+}
+
+.float2 .f2-right .f2-ri-t1 {
+    font-size: 16px;
+    color: white;
+    line-height: 40px;
+}
+
+.float2 .f2-right .f2-ri-t2 {
+    font-size: 14px;
+    color: white;
+    text-indent: 32px;
+}
+
+.f3-container {
+    margin: 106px 0;
+}
+
+.float3 .f3-title {
+    text-align: center;
+    font-size: 24px;
+    color: #F65A5B;
+}
+
+.float3 hr {
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*margin: 20px auto;*/
+}
+
+.float3 .f3-pic-text {
+    font-size: 0;
+}
+
+.float3 .f3-pic-text li {
+    width: 228px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid #E8E8E8;
+    vertical-align: top;
+}
+
+.float3 .f3-pic-text .quchong {
+    border-right: none;
+}
+
+.float3 .f3-pic-text .pic-title {
+    background: #204056;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
+
+.float3 .f3-pic-text .pic {
+    width: 100%;
+    height: 168px;
+}
+
+.float3 .f3-pic-text .pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.float3 .f3-pic-text .f3-p {
+    text-indent: 28px;
+    font-size: 14px;
+    padding: 7px;
+}
+
+.float3 .f3-pic-text .f3-bottom {
+    color: #F65A5B;
+    text-decoration: none;
+}
+
+.foot-container {
+    background: #6A737B;
+    padding: 106px 0;
+}
+
+.foot-ul {
+    font-size: 0;
+}
+
+.foot-ul {
+    margin-left: 100px;
+}
+
+.foot-ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-ul li {
+    font-size: 14px;
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+
+.foot-ul li h4 {
+    color: #F65A5B;
+}
+
+.foot-bottom {
+    height: 60px;
+    background: #F65A5B;
+    text-align: center;
+    line-height: 60px;
+    font-size: 12px;
+    color: white;
+}
+
+.foot-bottom .foot-link {
+    width: 270px;
+    height: 60px;
+    background: url("../images/foot-bottom.png") no-repeat;
+    float: right;
+    position: relative;
+}
+
+.foot-bottom .foot-link .ftlink {
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.foot-bottom .foot-link .link1 {
+     top: 14px;
+     left: 13px;
+ }
+.foot-bottom .foot-link .link2 {
+    top: 14px;
+    left: 57px;
+}
+.foot-bottom .foot-link .link3 {
+    top: 14px;
+    left: 99px;
+}
+.foot-bottom .foot-link .link4 {
+    top: 14px;
+    left: 144px;
+}
+.foot-bottom .foot-link .link5 {
+    top: 14px;
+    left: 187px;
+}
+.foot-bottom .foot-link .link6 {
+    top: 14px;
+    left: 231px;
+}
